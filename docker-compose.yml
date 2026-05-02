@@ -1,0 +1,57 @@
+
+services:
+
+  gateway:
+
+    build: .
+
+    ports:
+
+      - "3000:3000"
+
+    environment:
+
+      - PORT=3000
+
+    depends_on:
+
+      - postgres
+
+      - redis
+
+  worker:
+
+    build: .
+
+    command: node apps/worker/src/main.ts
+
+    depends_on:
+
+      - postgres
+
+      - redis
+
+  postgres:
+
+    image: postgres:15-alpine
+
+    environment:
+
+      POSTGRES_USER: app
+
+      POSTGRES_PASSWORD: app
+
+      POSTGRES_DB: app
+
+    ports:
+
+      - "5432:5432"
+
+  redis:
+
+    image: redis:7-alpine
+
+    ports:
+
+      - "6379:6379"
+
