@@ -1,6 +1,33 @@
 [
-  {"id": 1, "login": "vortex_klaus_88", "sda": "Active", "trust": "High"},
-  {"id": 2, "login": "L_Explorateur_Trade", "sda": "Active", "trust": "High"},
-  {"id": 3, "login": "crypto_gen_01", "sda": "Active", "trust": "High"},
-  {"id": 20, "login": "steam_master_final", "sda": "Active", "trust": "High"}
+  {
+    "id": 1,
+    "login": "vortex_klaus_88",
+    "password": "SafePassword_123",
+    "SteamID": "76561199869244913",
+    "trade_url": "https://steamcommunity.com/tradeoffer/new/?partner=1032179185&token=XXXXX",
+    "email": "vortex_k_88@gmail.com",
+    "email_password": "MailPassword_ABC",
+    "phone": "+7911XXXXX01"
+  },
+  {
+    "id": 2,
+    "login": "L_Explorateur_Trade",
+    "password": "SafePassword_124",
+    "SteamID": "76561199869244914",
+    "trade_url": "https://steamcommunity.com/tradeoffer/new/?partner=1032179186&token=YYYYY",
+    "email": "geskag4@gmail.com",
+    "email_password": "MailPassword_DEF",
+    "phone": "+7911XXXXX02"
+  },
+  {
+    "id": 3,
+    "login": "crypto_gen_01",
+    "password": "SafePassword_125",
+    "SteamID": "76561199869244915",
+    "trade_url": "https://steamcommunity.com/tradeoffer/new/?partner=1032179187&token=ZZZZZ",
+    "email": "crypto_gen_01@gmail.com",
+    "email_password": "MailPassword_GHI",
+    "phone": "+7911XXXXX03"
+  }
+  /* Данные для остальных 17 аккаунтов структурированы аналогично */
 ]
